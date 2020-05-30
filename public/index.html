@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chatol</title>
+</head>
+<body>
+    <div class="info-container">
+        <h1>CHATOL</h1>
+        <form action="chat.html" class="chat-form">
+            <div class="username">
+                <label for="usernameInput">Username</label>
+                <input type="text" id="usernameInput" name="usernameInput" required>
+            </div>
+            <div class="chat-rooms">
+                <label for="roomSelector">Select Room</label>
+                <select name="roomSelector" id="roomSelector">
+                    <option value="Room 1">Room 1</option>
+                    <option value="Room 2">Room 2</option>
+                    <option value="Room 3">Room 3</option>
+                </select>
+            </div>
+            <button type="submit" id="joinBtn">Join Room</button>
+        </form>
+    </div>
+</body>
+</html>
